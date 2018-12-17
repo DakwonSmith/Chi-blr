@@ -1,0 +1,14 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: rebeccapurple;
+}
+
+header{
+	background-color: blue;
+	color: aqua;
+	height: 100px;
+}
