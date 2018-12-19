@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: url('simple.gif') no-repeat center center fixed;
+	background-size: cover;
+}
+
+header{
+	background-color: blue;
+	color: aqua;
+	height: 100%;
+	opacity: .3;
+	font-size: 55px;
+	padding-top: 50%;
+	padding-left: 10%;
+}
