@@ -12,32 +12,11 @@
 
 ActiveRecord::Schema.define(version: 5) do
 
-  create_table "cars", force: :cascade do |t|
-    t.string "make"
-    t.string "model"
-    t.integer "year"
-    t.integer "cost_price"
-    t.integer "sale_markup"
-    t.integer "sale_id"
-  end
-
-  create_table "customers", force: :cascade do |t|
+  create_table "user", force: :cascade do |t|
+    t.string "username"
+    t.string "password"
     t.string "first_name"
     t.string "last_name"
-    t.string "email"
-    t.string "gender"
-    t.string "phone_number"
-    t.integer "sale_id"
-  end
-
-  create_table "sales", force: :cascade do |t|
-  end
-
-  create_table "transactions", force: :cascade do |t|
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "email"
     t.string "password"
   end
 

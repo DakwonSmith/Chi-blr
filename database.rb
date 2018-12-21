@@ -6,10 +6,10 @@ require 'active_record'
 
 #require classes
 # require './models/cake.rb'
-require './models/car.rb'
-require './models/customer.rb'
-require './models/sale.rb'
 require './models/user.rb'
+require './models/email.rb'
+require './models/password.rb'
+
 
 # Use `binding.pry` anywhere in this script for easy debugging
 require 'pry'
