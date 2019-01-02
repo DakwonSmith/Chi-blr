@@ -5,13 +5,39 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+	<link rel="stylesheet" href="signup.css">
+	<link rel="shortcut icon" href="favChi.png" type="image/x-icon">
 </head>
 <body>
 	sign up
+	<div class="ui form">
+		<div class="fields">
+			<div class="field">
+				<label>First name</label>
+				<input type="text" placeholder="First Name">
+			</div>
+			<div class="field">
+				<label>Last name</label>
+				<input type="text" placeholder="Last Name">
+			</div>
+		</div>
+	</div>
+	<div class="ui form">
+		<div class="three fields">
+			<div class="field">
+				<label>email</label>
+				<input type="text" placeholder="email">
+			</div>
+			<div class="field">
+				<label>Password</label>
+				<input type="text" placeholder="Password">
+			</div>
+		</div>
+	</div>
 	<form action="/">
 		<button type="submit"> Back </button>
 	</form>
-	<form action="/dashboard">
+	<form method="POST" action="/signup">
 		<button type="submit"> Create account</button>
 	</form>
 </body>

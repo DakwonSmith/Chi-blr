@@ -1,0 +1,11 @@
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: url('signChi.jpg') no-repeat center center fixed;
+	background-size: cover;
+}

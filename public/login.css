@@ -3,7 +3,7 @@
 	margin: 0px;
 }
 
-html{
-	background: url('thinking.jpg') no-repeat center center fixed;
+body{
+	background: url('loginChi.png') no-repeat center center fixed;
 	background-size: cover;
 }

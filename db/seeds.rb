@@ -1,13 +1,12 @@
 # Based on http://www.jonathanleighton.com/articles/2011/awesome-active-record-bug-reports/
 
 # Run this script with `bundle exec ruby app.rb`
-require 'sqlite3'
+
 require 'active_record'
 
 #require classes
 
 require './models/user.rb'
-require './models/email.rb'
 require './models/post.rb'
 
 # Use `binding.pry` anywhere in this script for easy debugging
@@ -23,7 +22,7 @@ else
 	require 'sqlite3'
   ActiveRecord::Base.establish_connection(
     adapter: 'sqlite3',
-    database: 'db/development.db'
+    database: 'db/chiblr.db'
   )
 end
 
